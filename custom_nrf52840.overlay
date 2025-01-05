@@ -1,0 +1,10 @@
+// device tree overlay for Spyder custom board
+// here indicate the external flash is used by board in App image
+//
+/ {
+    chosen {
+        nordic,pm-ext-flash = &w25q16jv;
+        zephyr,entropy = &rng;
+    };
+
+};

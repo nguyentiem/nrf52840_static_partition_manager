@@ -1,0 +1,11 @@
+littlefs_storage:
+  address: 0x00
+  end_address: 0x180000
+  device: W25Q16JV
+  region: external_flash
+  size: 0x180000
+external_flash:
+  address: 0x180000
+  size: 0x80000
+  device: W25Q16JV
+  region: external_flash
