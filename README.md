@@ -1,0 +1,1 @@
+# nrf52840_static_partition_manager
